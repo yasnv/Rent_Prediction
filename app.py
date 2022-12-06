@@ -84,8 +84,8 @@ def get_user_input():
     furnishing = st.sidebar.selectbox(
         "Select furnishing status", ('unfurnished', 'semifurnished', 'furnished'))
 
-    bedroom = st.sidebar.slider('Select bathroom count', 1, 6, 2)
-    bathrooms = st.sidebar.slider('Select bathroom count', 1, 7, 2)
+    bedroom = st.sidebar.slider('Select bedroom count', 1, 5, 2)
+    bathrooms = st.sidebar.slider('Select bathroom count', 1, 6, 2)
     area = st.sidebar.slider('Select area', 500, 10000, 1000)
     floor_number = st.sidebar.slider('Select floor number', 0, 8, 0)
     parking = st.sidebar.slider('Select parking', 0, 6, 1)
